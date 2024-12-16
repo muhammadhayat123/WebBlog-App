@@ -21,7 +21,7 @@ const blogs = dirContent.map(file=>{
 //     slug: 'first-blog',
 //     date: '2023-10-01',
 //     author: 'John Doe',
-//     image: '/typescript.webp'
+//     image: '/ts.png'
 //   },
 //   {
 //     title: 'Second Blog',
@@ -29,15 +29,14 @@ const blogs = dirContent.map(file=>{
 //     slug: 'second-blog',
 //     date: '2023-10-02',
 //     author: 'Jane Doe',
-//     image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-//   },
+//     image: "/nextjs.png"
 //   {
 //     title: 'Second Blog',
 //     description: 'This is the second blog description.',
 //     slug: 'second-blog',
 //     date: '2023-10-02',
 //     author: 'Jane Doe',
-//     image: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg'
+//     image: '/tailwind.png'
 //   },
 //   // Add more blog objects here
 // ];

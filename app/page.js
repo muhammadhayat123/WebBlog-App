@@ -24,10 +24,10 @@ export default function Home() {
       <section className="container px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
         <div className="w-full text-center lg:text-left lg:w-1/2 lg:-mt-8">
           <h1 className="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
-            A <span className="font-semibold">free repository</span> for community <br className="hidden lg:block" /> components using <span className="font-semibold underline decoration-primary"><span ref={el} /></span>
+            Hi <span className="font-semibold">! </span><br/>i am <br className="hidden lg:block" /> Muhammad <span className="font-semibold underline decoration-primary"><span ref={el} /></span>
           </h1>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-            Open source Tailwind UI components and templates to <br className="hidden lg:block" /> bootstrap your new apps, projects or landing sites!
+          Welcome to my web blog! a passionate SOFTWARE ENGINEER dedicated to creating seamless digital experiences. <br className="hidden lg:block" /> This blog is my space to share insights on web and app development, the latest tech innovations.!
           </p>
           <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20">
             <form action="https://www.creative-tim.com/twcomponents/search" className="flex flex-wrap justify-between md:flex-row">
@@ -36,8 +36,11 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
-          <img src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg" alt="tailwind css components" className="w-full h-full max-w-md mx-auto" />
-        </div>
+  <video autoPlay loop muted className="w-full h-full max-w-md mx-auto rounded-lg">
+    <source src="/hero1.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
       </section>
 
 <section className="py-12 bg-gray-100 dark:bg-gray-900">
@@ -145,7 +148,7 @@ export default function Home() {
       {/* Blog 1 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-          <img src="/typescript.webp" className="w-full h-64 object-cover rounded-t-lg"/>
+          <img src="/ts.png" className="w-full h-64 object-cover rounded-t-lg"/>
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Blog Post Title 1</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the blog post goes here. It should be engaging and informative.</p>
